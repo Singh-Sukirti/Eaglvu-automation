@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-06T12:54:15 IST" name="Default suite" finished-at="2023-02-06T12:54:35 IST" duration-ms="19261">
+    <groups>
+    </groups>
+    <test started-at="2023-02-06T12:54:15 IST" name="Default test" finished-at="2023-02-06T12:54:35 IST" duration-ms="19261">
+      <class name="com.qa.eaglvu.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.eaglvu.tests.LoginPageTest@6d167f58]" started-at="2023-02-06T12:54:15 IST" name="setup" finished-at="2023-02-06T12:54:22 IST" duration-ms="6843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageOfEaglvu()[pri:1, instance:com.qa.eaglvu.tests.LoginPageTest@6d167f58]" started-at="2023-02-06T12:54:22 IST" name="loginPageOfEaglvu" finished-at="2023-02-06T12:54:22 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageOfEaglvu -->
+        <test-method signature="loginPageURLTest()[pri:2, instance:com.qa.eaglvu.tests.LoginPageTest@6d167f58]" started-at="2023-02-06T12:54:23 IST" name="loginPageURLTest" finished-at="2023-02-06T12:54:23 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageURLTest -->
+        <test-method signature="loginTest()[pri:3, instance:com.qa.eaglvu.tests.LoginPageTest@6d167f58]" started-at="2023-02-06T12:54:23 IST" name="loginTest" finished-at="2023-02-06T12:54:34 IST" duration-ms="11550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.eaglvu.tests.LoginPageTest@6d167f58]" started-at="2023-02-06T12:54:34 IST" name="tearDown" finished-at="2023-02-06T12:54:35 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.eaglvu.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

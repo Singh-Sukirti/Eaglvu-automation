@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Validate Proficiency Page Test(failed)">
+    <classes>
+      <class name="com.qa.eaglvu.tests.ProficiencyPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginfirst"/>
+          <include name="proficiencyPageLogin"/>
+        </methods>
+      </class> <!-- com.qa.eaglvu.tests.ProficiencyPageTest -->
+    </classes>
+  </test> <!-- Validate Proficiency Page Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
