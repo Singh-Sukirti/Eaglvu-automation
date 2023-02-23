@@ -7,7 +7,7 @@ import com.qa.eaglevu.utils.Constants;
 
 public class LoginPageTest extends BaseTest {
 	
-	Logger log = Logger.getLogger(LoginPageTest.class)
+	//Logger log = Logger.getLogger(LoginPageTest.class)
 
 @Test (priority = 1)	
 public void loginPageOfEaglvu() {
@@ -25,5 +25,6 @@ public void loginPageURLTest() {
 @Test (priority = 3)
 	public void loginTest() {
 	loginPage.doLogin(prop.getProperty("username").trim(),prop.getProperty("password").trim());
+	System.out.println("This is Git Testing");
 	}
 }

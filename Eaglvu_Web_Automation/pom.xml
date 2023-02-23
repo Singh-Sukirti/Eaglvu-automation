@@ -53,11 +53,6 @@
     	   <version>1.2.17</version>
 		</dependency>		
 		
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>{extentreports-version}</version>
-		</dependency>
     <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
 <dependency>
     <groupId>io.qameta.allure</groupId>
